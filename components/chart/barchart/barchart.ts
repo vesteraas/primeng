@@ -1,5 +1,7 @@
 import {Component, ElementRef, AfterViewInit, OnDestroy, DoCheck, SimpleChange, Input, Output, EventEmitter, IterableDiffers} from '@angular/core';
 
+declare var Chart : any;
+
 @Component({
     selector: 'p-barChart',
     template: `
